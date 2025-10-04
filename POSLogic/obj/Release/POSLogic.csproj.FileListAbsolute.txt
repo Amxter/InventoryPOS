@@ -1,0 +1,9 @@
+C:\Programing with Mohamed abu Hadhod\Course 14\POSLogic\bin\Release\POSLogic.dll
+C:\Programing with Mohamed abu Hadhod\Course 14\POSLogic\bin\Release\POSLogic.pdb
+C:\Programing with Mohamed abu Hadhod\Course 14\POSLogic\bin\Release\Data of Project (POS).dll
+C:\Programing with Mohamed abu Hadhod\Course 14\POSLogic\bin\Release\Data of Project (POS).pdb
+C:\Programing with Mohamed abu Hadhod\Course 14\POSLogic\obj\Release\POSLogic.csproj.AssemblyReference.cache
+C:\Programing with Mohamed abu Hadhod\Course 14\POSLogic\obj\Release\POSLogic.csproj.CoreCompileInputs.cache
+C:\Programing with Mohamed abu Hadhod\Course 14\POSLogic\obj\Release\POSLogic.csproj.Up2Date
+C:\Programing with Mohamed abu Hadhod\Course 14\POSLogic\obj\Release\POSLogic.dll
+C:\Programing with Mohamed abu Hadhod\Course 14\POSLogic\obj\Release\POSLogic.pdb

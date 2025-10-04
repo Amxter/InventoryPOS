@@ -1,0 +1,6 @@
+C:\Programing with Mohamed abu Hadhod\Course 14\Data of Project (POS)\bin\Release\Data of Project (POS).dll
+C:\Programing with Mohamed abu Hadhod\Course 14\Data of Project (POS)\bin\Release\Data of Project (POS).pdb
+C:\Programing with Mohamed abu Hadhod\Course 14\Data of Project (POS)\obj\Release\Data of Project (POS).csproj.AssemblyReference.cache
+C:\Programing with Mohamed abu Hadhod\Course 14\Data of Project (POS)\obj\Release\Data of Project (POS).csproj.CoreCompileInputs.cache
+C:\Programing with Mohamed abu Hadhod\Course 14\Data of Project (POS)\obj\Release\Data of Project (POS).dll
+C:\Programing with Mohamed abu Hadhod\Course 14\Data of Project (POS)\obj\Release\Data of Project (POS).pdb
