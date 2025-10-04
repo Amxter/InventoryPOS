@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EF137489-2D6D-46EE-B7D1-D885647B0A7E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project_Plint_of_Sale_System</RootNamespace>
+    <AssemblyName>Project Plint of Sale System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>point-of-sale.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Invoice\AddInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice\AddInvoice.Designer.cs">
+      <DependentUpon>AddInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\DetailsInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice\DetailsInvoice.Designer.cs">
+      <DependentUpon>DetailsInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\FrmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product\FrmProduct.Designer.cs">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Invoice\SearchInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice\SearchInvoice.Designer.cs">
+      <DependentUpon>SearchInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\UCAddAndUpdateProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Product\UCAddAndUpdateProduct.Designer.cs">
+      <DependentUpon>UCAddAndUpdateProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\UCCategoryProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Product\UCCategoryProduct.Designer.cs">
+      <DependentUpon>UCCategoryProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\UCCompany.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Product\UCCompany.Designer.cs">
+      <DependentUpon>UCCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\UCInvoiceManagment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Invoice\UCInvoiceManagment.Designer.cs">
+      <DependentUpon>UCInvoiceManagment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\UCSearchInvoice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Invoice\UCSearchInvoice.Designer.cs">
+      <DependentUpon>UCSearchInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\UCSearchProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Product\UCSearchProduct.Designer.cs">
+      <DependentUpon>UCSearchProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseInvoices\AddAndUpdatePurchaseInvoices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseInvoices\AddAndUpdatePurchaseInvoices.Designer.cs">
+      <DependentUpon>AddAndUpdatePurchaseInvoices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseInvoices\AddorUpdateData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseInvoices\AddorUpdateData.Designer.cs">
+      <DependentUpon>AddorUpdateData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseInvoices\DetailsInvoicePurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseInvoices\DetailsInvoicePurchase.Designer.cs">
+      <DependentUpon>DetailsInvoicePurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseInvoices\UCPurchaseInvoices.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PurchaseInvoices\UCPurchaseInvoices.Designer.cs">
+      <DependentUpon>UCPurchaseInvoices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UCDashbordAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User\UCDashbordAdmin.Designer.cs">
+      <DependentUpon>UCDashbordAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UCAddAndUpdateUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User\UCAddAndUpdateUser.Designer.cs">
+      <DependentUpon>UCAddAndUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UCAdminDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User\UCAdminDashboard.Designer.cs">
+      <DependentUpon>UCAdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UCCashierDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User\UCCashierDashboard.Designer.cs">
+      <DependentUpon>UCCashierDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UCDashboardCashier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User\UCDashboardCashier.Designer.cs">
+      <DependentUpon>UCDashboardCashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UCUsersManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User\UCUsersManagement.Designer.cs">
+      <DependentUpon>UCUsersManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product\USListProducts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Product\USListProducts.Designer.cs">
+      <DependentUpon>USListProducts.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Invoice\AddInvoice.resx">
+      <DependentUpon>AddInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice\DetailsInvoice.resx">
+      <DependentUpon>DetailsInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\FrmProduct.resx">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Invoice\SearchInvoice.resx">
+      <DependentUpon>SearchInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\UCAddAndUpdateProduct.resx">
+      <DependentUpon>UCAddAndUpdateProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\UCCategoryProduct.resx">
+      <DependentUpon>UCCategoryProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\UCCompany.resx">
+      <DependentUpon>UCCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice\UCInvoiceManagment.resx">
+      <DependentUpon>UCInvoiceManagment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice\UCSearchInvoice.resx">
+      <DependentUpon>UCSearchInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\UCSearchProduct.resx">
+      <DependentUpon>UCSearchProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseInvoices\AddAndUpdatePurchaseInvoices.resx">
+      <DependentUpon>AddAndUpdatePurchaseInvoices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseInvoices\AddorUpdateData.resx">
+      <DependentUpon>AddorUpdateData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseInvoices\DetailsInvoicePurchase.resx">
+      <DependentUpon>DetailsInvoicePurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseInvoices\UCPurchaseInvoices.resx">
+      <DependentUpon>UCPurchaseInvoices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UCDashbordAdmin.resx">
+      <DependentUpon>UCDashbordAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UCAddAndUpdateUser.resx">
+      <DependentUpon>UCAddAndUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UCAdminDashboard.resx">
+      <DependentUpon>UCAdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UCCashierDashboard.resx">
+      <DependentUpon>UCCashierDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UCDashboardCashier.resx">
+      <DependentUpon>UCDashboardCashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UCUsersManagement.resx">
+      <DependentUpon>UCUsersManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product\USListProducts.resx">
+      <DependentUpon>USListProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\POSLogic\POSLogic.csproj">
+      <Project>{301793a2-96a4-44f8-a729-5e53dde1c661}</Project>
+      <Name>POSLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-waiter-cashier-clip-art-png-image_2706753.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-in %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\products.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="point-of-sale.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

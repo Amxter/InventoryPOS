@@ -1,0 +1,36 @@
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\bin\Debug\Project Plint of Sale System.exe
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\bin\Debug\Project Plint of Sale System.pdb
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\bin\Debug\POSLogic.dll
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\bin\Debug\Data of Project (POS).dll
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\bin\Debug\POSLogic.pdb
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\bin\Debug\Data of Project (POS).pdb
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project Plint of Sale System.csproj.AssemblyReference.cache
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.AddInvoice.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.FrmLogin.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.FrmMain.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.Invoice.DetailsInvoice.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.FrmProduct.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.Properties.Resources.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.SearchInvoice.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.UCAddAndUpdateProduct.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.UCCategoryProduct.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.UCCompany.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.UCInvoiceManagement.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.UCSearchInvoice.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.UCSearchProduct.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.PurchaseInvoices.DetailsInvoicePurchase.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.UCPurchaseInvoices.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.UCAddAndUpdateUser.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.UCAdminDashboard.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.UCCashierDashboard.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.UCUsersManagement.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.USListProducts.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project Plint of Sale System.csproj.GenerateResource.cache
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project Plint of Sale System.csproj.CoreCompileInputs.cache
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project .4EC35F12.Up2Date
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project Plint of Sale System.exe
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project Plint of Sale System.pdb
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.PurchaseInvoices.AddAndUpdatePurchaseInvoices.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.PurchaseInvoices.AddorUpdateData.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.UCDashboardAdmin.resources
+C:\Programing with Mohamed abu Hadhod\Course 14\Project Plint of Sale System\obj\Debug\Project_Plint_of_Sale_System.User.UCDashboardCashier.resources
